@@ -16,7 +16,8 @@ This invokes a macro that prints out the answer for the query.
 The point of defining a macro like this is solely the fact that the reader knows that they can lookup beginner level guides using macros starting with `a_`.
 All of these usage instructions will be added to the top of `open_me_first.cpp` for ease of reference.
 
-This can be used to add all kinds of useful information. Maybe some easter eggs can also be added.
+This can be used to add all kinds of useful information. Maybe some easter eggs can also be added :P.
+
 Unfortunately macros are not context aware, which means that we may need to overcome this shortcoming by using `#ifdef` directives inside macro definitions.
 
 ## SETUP instructions
@@ -27,8 +28,9 @@ These instructions are valid for both contributors and users of this manual.
 4. Run CMake: `cd build/ && cmake ..`
 5. Execution instructions:
 	1. For Linux users:
-		1. Build the project: `make`
-		2. Run: `./wth-is-cpp`
+		1. Navigate to `build/`
+		2. Build the project: `make`
+		3. Run: `./wth-is-cpp`
 	2. For Windows users:
 		1. Open `Project.sln` from `wth-is-cpp/build` in Visual Studio (recommended for Intellisense suggestions)
 		2. Right click on `wth-is-cpp` project and select `Select as StartUp Project`
