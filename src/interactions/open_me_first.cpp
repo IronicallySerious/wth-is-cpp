@@ -8,3 +8,4 @@
 	a lot of tokens can only be discovered through somewhat sensible guesses.
 */
 
+a_how_do_I_declare_variables
