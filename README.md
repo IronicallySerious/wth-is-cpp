@@ -16,7 +16,8 @@ This invokes a macro that prints out the answer for the query.
 The point of defining a macro like this is solely the fact that the reader knows that they can lookup beginner level guides using macros starting with `a_`.
 All of these usage instructions will be added to the top of `open_me_first.cpp` for ease of reference.
 
-This can be used to add all kinds of useful information. Maybe some easter eggs can also be added.
+This can be used to add all kinds of useful information. Maybe some easter eggs can also be added :P.
+
 Unfortunately macros are not context aware, which means that we may need to overcome this shortcoming by using `#ifdef` directives inside macro definitions.
 
 ## SETUP instructions
