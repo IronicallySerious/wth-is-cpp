@@ -28,8 +28,9 @@ These instructions are valid for both contributors and users of this manual.
 4. Run CMake: `cd build/ && cmake ..`
 5. Execution instructions:
 	1. For Linux users:
-		1. Build the project: `make`
-		2. Run: `./wth-is-cpp`
+		1. Navigate to `build/`
+		2. Build the project: `make`
+		3. Run: `./wth-is-cpp`
 	2. For Windows users:
 		1. Open `Project.sln` from `wth-is-cpp/build` in Visual Studio (recommended for Intellisense suggestions)
 		2. Right click on `wth-is-cpp` project and select `Select as StartUp Project`
